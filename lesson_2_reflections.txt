@@ -8,8 +8,9 @@ What value do you think it offers?
  The staging area is a place where we can add files that we want to include in the reposittory throug a commit to it.
  The repository is the place were we have the history of files that we chose to be tracked for version control.
 
-How can you use the staging area to make sure you have one commit per logical
+3.- How can you use the staging area to make sure you have one commit per logical
 change?
+	Once I made changes to my files I add the changes to the staging area, there I can use the command git diff to verify the changes that I made a be sure that they correspond to a same logical change. I also can analyze the changes of my files in the staging area against the last commit in the repository with the git diff --staged command.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
