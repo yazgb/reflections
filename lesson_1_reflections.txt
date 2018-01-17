@@ -1,0 +1,39 @@
+1.- How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	The diff tool on Mac helps identify quickly the differences between two files, which allows me to focus on them and look for possible typos where it is likely to find them.
+
+2.- How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having the entire history of a file will help me as a programmer to not lose my work, to have access to previous code and remember previous ideas quickly comparing versions, looking for errors and understanding changes on my code.
+
+3.- What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: It is flexible, I can choose what and when to commit in an specific time point.
+	Cons: Propense to forget commiting and save versions of your file in a meaningful way.
+
+4.- Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Version control systems like Git are focus on content related to coding which is more likely to require 
+	several files that integrate a project and are kept together. These files are related and changes in a file
+	might affect other files. So it very useful to have multiple file tracking. On the other hand, version
+	control systems like Google Docs work with single documents and are focus on keeping versions of single
+	files.
+
+5.- How can you use the commands git log and git diff to view the history of files?
+
+    git log command shows a list of the commits of a file, showing the mos recent commits first. It shows de commit ID, author, email, date and comment
+	git diff command compares two commits and shows the differences made between those commits, specifying the delets and inserts that where made.
+
+6.- How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control ensure us to have access to previous version so it is possible to restore a version that we knew was working and easily identify a version where a bug was created. 
+
+7.- Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git for coding my first android app.
