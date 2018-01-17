@@ -17,8 +17,9 @@ organized? How would branches help?
 	When trying experimental features to a project. When collaboring and adding new features in group. 
 	Branches help us have control of and offical working version of a project while working on possible new features to be added in the future without puttink the risk the integrity of the most recent official version.
 
-How do the diagrams help you visualize the branch structure?
-
+5.- How do the diagrams help you visualize the branch structure?
+	git log --graph --oneline (branch) (branch) (branch) command allows us to see the history of commits and branches of the repository. 
+	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
