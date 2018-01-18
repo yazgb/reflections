@@ -20,8 +20,9 @@ organized? How would branches help?
 5.- How do the diagrams help you visualize the branch structure?
 	git log --graph --oneline (branch) (branch) (branch) command allows us to see the history of commits and branches of the repository. 
 	
-What is the result of merging two branches together? Why do we represent it in
+6.- What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    Git merge uses the most recent commits of each of the two branches and the commit in common of them to determine if every line of code will stay or not in the final version. We represent each commit with a reference to it parent because in every commit git keeps the id of the actual commit as the parent of the now most recent commit. Branches and parent references gives git the power reachability, so this way git log command uses this feature to show us the history of the commits in every branch.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
