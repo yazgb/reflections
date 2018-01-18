@@ -24,5 +24,6 @@ organized? How would branches help?
 the diagram the way we do?
     Git merge uses the most recent commits of each of the two branches and the commit in common of them to determine if every line of code will stay or not in the final version. We represent each commit with a reference to it parent because in every commit git keeps the id of the actual commit as the parent of the now most recent commit. Branches and parent references gives git the power reachability, so this way git log command uses this feature to show us the history of the commits in every branch.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+7.- What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Automatic merging is an efficient way to merge branches. Only when git does not have enough information to determine what to do with a change then it is better to leave the final decision to the user to do merges manually.
