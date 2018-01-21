@@ -1,29 +1,27 @@
 1.- What happens when you initialize a repository? Why do you need to do it?
-	Git creates a new repository linked to the directory where we used the git init command.
-	We need to do it to create the .git hidden directory in which repository metadata is store.
+
+	Git creates a new repository linked to the directory where we used the git init command. We need to do it in order to create the .git hidden directory in which repository metadata is stored.
 	
-2.- How is the staging area different from the working directory and the repository?
-What value do you think it offers?
- Working directory has files that can be or not tracked.
- The staging area is a place where we can add files that we want to include in the reposittory throug a commit to it.
- The repository is the place were we have the history of files that we chose to be tracked for version control.
+2.- How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-3.- How can you use the staging area to make sure you have one commit per logical
-change?
-	Once I made changes to my files I add the changes to the staging area, there I can use the command git diff to verify the changes that I made a be sure that they correspond to a same logical change. I also can analyze the changes of my files in the staging area against the last commit in the repository with the git diff --staged command.
+	Working directory is the place where I create the files that I work with. This directory has files that can be or not tracked. The staging area is a place where we add files that we want to include in the repository through commits. The repository is the place were we have the history of files that we chose to tracked for versioning control.
 
-4.- What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
-	When trying experimental features to a project. When collaboring and adding new features in group. 
-	Branches help us have control of and offical working version of a project while working on possible new features to be added in the future without puttink the risk the integrity of the most recent official version.
+3.- How can you use the staging area to make sure you have one commit per logical change?
+
+	Once I made changes to my files I can add the files to the staging area. There it is possible to verify the changes that I made using the command git diff. In this point I verify that the changes correspond to the same logical change that I intended to do. I can also analyze the changes of my files in the staging area against the last commit in the repository with the git diff --staged command.
+
+4.- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are helpful when trying experimental features of a project and when working in teams to add new features. Branches help us have control of the versions of our project while working on possible new features to be added in the future. Branches are useful to ensure the integrity of our project most recent official version.
 
 5.- How do the diagrams help you visualize the branch structure?
-	git log --graph --oneline (branch) (branch) (branch) command allows us to see the history of commits and branches of the repository. 
-	
-6.- What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
-    Git merge uses the most recent commits of each of the two branches and the commit in common of them to determine if every line of code will stay or not in the final version. We represent each commit with a reference to it parent because in every commit git keeps the id of the actual commit as the parent of the now most recent commit. Branches and parent references gives git the power reachability, so this way git log command uses this feature to show us the history of the commits in every branch.
 
-7.- What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
-	Automatic merging is an efficient way to merge branches. Only when git does not have enough information to determine what to do with a change then it is better to leave the final decision to the user to do merges manually.
+	git log --graph --online (branch)* command helps us visualize the history of the commits and branches of our repositories. 
+	
+6.- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Git merge command uses the most recent commits of each of the two branches and a commit in common to them to determine if every line of code will stay or not in the final version. Each commit has a reference to its parent because in every commit git keeps the id of the current commit as the parent of the now most recent commit. Branches and parent references create the git concept called reachability. The command git log uses this feature (reachability) to show us the history of the commits in a branch.
+
+7.- What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Automatic merging is an efficient way that git uses to merge branches. Only when git does not have enough information to determine what to do with a change, then git knows that it is better to leave the final decision to the user to do a merge manually.
