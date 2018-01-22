@@ -9,3 +9,7 @@
 3.- Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 	A fork is a copy of a repository that is created from Github servers to the same GitHub servers. So we create fors throug the GutHub webpage. On the other hand, a clone is a copy of a repository that is placed in a local repository. I think that a clone can be copied from a remote or from a local repository. A branch is created in a repository, so I create branches and add commmits to them in my repositories.
+
+4.- What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	If a have an up-to-date copy stored locally and later, for some reason not have internet connection, I will still be able to work on my features and when ready merge my changes to the locally stored copy that has the most recent state.
