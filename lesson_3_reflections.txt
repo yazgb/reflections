@@ -13,3 +13,7 @@
 4.- What is the benefit of having a copy of the last known state of the remote stored locally?
 
 	If a have an up-to-date copy stored locally and later, for some reason not have internet connection, I will still be able to work on my features and when ready merge my changes to the locally stored copy that has the most recent state.
+
+5.- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I would use another version control system like Google Drive to have an official repository in which I could keep the history of the changes of every file. However, it would be difficult when more than one person needs to work on the same part of a file. Also, the integration of the changes of every collaborator would require more time and effort, and I would be worried of the integrity of the files.
