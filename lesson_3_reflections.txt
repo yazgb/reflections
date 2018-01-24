@@ -17,3 +17,7 @@
 5.- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	I would use another version control system like Google Drive to have an official repository in which I could keep the history of the changes of every file. However, it would be difficult when more than one person needs to work on the same part of a file. Also, the integration of the changes of every collaborator would require more time and effort, and I would be worried of the integrity of the files.
+
+6.- When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	I would use a separate branch when experimenting or working on a new feature that I want to show someone and get their feedback before merging my changes to the master/main branch of the project. I would make changes directly in my master when working on my own or with a small team of no more than 2 or 3 people.
